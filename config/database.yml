@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: geniusifier-dev
+  pool: 10
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: geniusifier-test
+  pool: 10
+  timeout: 5000
