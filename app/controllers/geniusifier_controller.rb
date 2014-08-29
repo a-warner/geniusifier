@@ -1,5 +1,7 @@
 class GeniusifierController < ApplicationController
   def create
-    render action: :show
+    @markdown = params[:markdown].to_s
+    @rendered = GeniusRenderer.render(@markdown).html_safe
+    render 'show'
   end
 end

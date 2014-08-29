@@ -1,6 +1,9 @@
-%h1 Paste in some markdown
+- if @rendered
+  = @rendered
+
+%h2 Paste in some markdown
 
 = form_for :geniusifier, :url => geniusifier_url do |f|
-  = text_area_tag :markdown, '', rows: 20, cols: 100
+  = text_area_tag :markdown, @markdown, rows: 20, cols: 100
   %br
   = submit_tag 'Submit'

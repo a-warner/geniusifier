@@ -5,9 +5,11 @@ gem "decent_exposure"
 gem "decent_generators"
 gem "haml"
 gem "haml-rails"
+gem 'github-markdown'
 gem "pg"
 gem "pry"
 gem "pry-rails"
+gem 'pygments.rb'
 gem "twitter-bootstrap-rails"
 gem 'coffee-rails'
 gem 'jbuilder', '~> 1.2'
