@@ -1,4 +1,5 @@
-- if @rendered
+- if @rendered.present?
+  %button#copy-button{'data-clipboard-text' => h(@rendered), title: "Click to copy"} Copy!
   .geniusified
     =preserve @rendered
 
