@@ -6,6 +6,7 @@ gem "decent_generators"
 gem "haml"
 gem "haml-rails"
 gem 'github-markdown'
+gem 'nokogiri'
 gem "pg"
 gem "pry"
 gem "pry-rails"
