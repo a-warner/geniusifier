@@ -20,7 +20,9 @@ module GeniusRenderer
       if pre.matches?('.line-numbers')
         pre.remove
       else
-        pre.ancestors('.highlight').first.children = pre
+        highlight_div = pre.ancestors('.highlight').first
+        highlight_div.children = pre
+        highlight_div.ancestors('figure').first.swap(highlight_div)
       end
     end
 
