@@ -1,4 +1,4 @@
-ruby '2.1.2'
+ruby '2.3.5'
 source 'https://rubygems.org'
 
 gem "decent_exposure"
@@ -15,8 +15,9 @@ gem "twitter-bootstrap-rails"
 gem 'coffee-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
-gem 'rails', '~> 4.1.5'
+gem 'rails', '~> 4.2.7.1'
 gem 'sass-rails'
+gem 'sprockets', '~> 2.11.3'
 gem 'thin'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'

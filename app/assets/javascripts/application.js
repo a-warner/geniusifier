@@ -14,5 +14,5 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
-//= require ZeroClipboard-2.1.6
+//= require clipboard-1.7.1
 //= require_tree .

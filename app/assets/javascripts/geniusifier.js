@@ -1,3 +1,3 @@
 $(function() {
-  var client = new ZeroClipboard($("#copy-button"));
+  var clipboard = new Clipboard('#copy-button');
 })
